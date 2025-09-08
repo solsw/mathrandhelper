@@ -5,8 +5,8 @@ import (
 	"math/rand/v2"
 )
 
-// RandomBytes fills 'buf' with random bytes.
-func RandomBytes(buf []byte) {
+// RandomBuf fills 'buf' with random bytes.
+func RandomBuf(buf []byte) {
 	if len(buf) == 0 {
 		return
 	}
